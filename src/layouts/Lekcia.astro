@@ -1,0 +1,19 @@
+---
+// Component Imports
+import Layout from '../layouts/Layout.astro';
+// You can import components from any supported Framework here!
+---
+
+<Layout>
+    <link href={Astro.resolve("../styles/sidebar.css")} rel="stylesheet">
+        <div class="container">
+            <h1>{Astro.props.content.heading}</h1>
+        </div>
+        <main>
+            <div class="container">
+                <slot/>
+            </div>
+        </main>
+
+</Layout>
+

@@ -5,7 +5,7 @@ dist
 node_modules/
 
 .idea/
-.npmrc
+.npmrcchc
 .stackblitzrc
 
 # logs
